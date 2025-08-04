@@ -21,3 +21,6 @@ PRODUCT_NAME := twrp_RMX2001L1
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme 6/6i(Indian)/6s/Narzo
 PRODUCT_MANUFACTURER := realme
+
+# Dynamic
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
