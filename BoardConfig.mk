@@ -130,6 +130,7 @@ TW_INCLUDE_REPACKTOOLS := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/class/power_supply/battery/temp
 TW_FRAMERATE := 90
+TW_SKIP_ADDITIONAL_FSTAB := true
 
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
