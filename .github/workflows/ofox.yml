@@ -27,7 +27,7 @@ on:
         description: 'DEVICE_TREE_BRANCH'
         type: choice
         options:
-                 - 'android-12.1'
+                 - 'android-12.1-R7'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
