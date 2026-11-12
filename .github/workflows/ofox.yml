@@ -22,7 +22,7 @@ on:
        required: true
        type: choice
        options:
-                 - 'https://github.com/EvilAnsh/twrp_device_realme_RM6785'
+                 - 'https://github.com/UltimateAnsh/twrp_device_realme_RM6785'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         type: choice
