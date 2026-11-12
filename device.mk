@@ -19,7 +19,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Additional target Libraries
 TARGET_RECOVERY_DEVICE_MODULES += \
     libkeymaster4 \
-    libpuresoftkeymasterdevice
+    libpuresoftkeymasterdevice \
+    libion \
+    libxml2 \ 
+    libsqlite
 
 TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libkeymaster4.so \
