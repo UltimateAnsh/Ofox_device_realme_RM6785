@@ -127,9 +127,17 @@ TW_INCLUDE_RESETPROP := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/class/power_supply/battery/temp
-TW_FRAMERATE := 90
+TW_FRAMERATE := 60
 TW_SKIP_ADDITIONAL_FSTAB := true
-TW_NO_SCREEN_BLANK := true
+TW_USE_LEGACY_BATTERY_SERVICES := true
+TW_PREPARE_DATA_MEDIA_EARLY := true
+
+# Version/Maintainer
+TW_DEVICE_VERSION := Realme-UI-v2.0-BY-ANSH-$(shell date +%Y%m%d)
+
+# Display Offsets for Punch Hole
+TW_Y_OFFSET := 130
+TW_H_OFFSET := -130
 
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
