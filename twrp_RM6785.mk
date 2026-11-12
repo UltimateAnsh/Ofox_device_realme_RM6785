@@ -13,11 +13,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from RMX2151L1 device
-$(call inherit-product, device/realme/RMX2151L1/device.mk)
+# Inherit from RM6785 device
+$(call inherit-product, device/realme/RM6785/device.mk)
 
-PRODUCT_DEVICE := RMX2151L1
-PRODUCT_NAME := twrp_RMX2151L1
+PRODUCT_DEVICE := RM6785
+PRODUCT_NAME := twrp_RM6785
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme 7/Narzo 20 Pro/Narzo 30 4G
 PRODUCT_MANUFACTURER := realme
