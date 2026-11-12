@@ -21,7 +21,7 @@ TARGET_RECOVERY_DEVICE_MODULES += \
     libkeymaster4 \
     libpuresoftkeymasterdevice \
     libion \
-    libxml2 \ 
+    libxml2 \
     libsqlite
 
 TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
