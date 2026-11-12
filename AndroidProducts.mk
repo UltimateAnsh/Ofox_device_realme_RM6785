@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_RMX2151L1.mk
+    $(LOCAL_DIR)/twrp_RM6785.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_RMX2151L1-user \
-    twrp_RMX2151L1-userdebug \
-    twrp_RMX2151L1-eng
+    twrp_RM6785-user \
+    twrp_RM6785-userdebug \
+    twrp_RM6785-eng
