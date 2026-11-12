@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/realme/RMX2001L1
+DEVICE_PATH := device/realme/RM6785
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
