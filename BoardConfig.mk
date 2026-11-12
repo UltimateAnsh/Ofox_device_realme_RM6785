@@ -134,6 +134,10 @@ TW_NO_SCREEN_BLANK := true
 # Version/Maintainer
 TW_DEVICE_VERSION := Realme-UI-v2.0-BY-ANSH-$(shell date +%Y%m%d)
 
+# Display Offsets for Punch Hole
+TW_Y_OFFSET := 130
+TW_H_OFFSET := -130
+
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
