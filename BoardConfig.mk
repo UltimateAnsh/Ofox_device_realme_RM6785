@@ -130,6 +130,7 @@ TW_CUSTOM_CPU_TEMP_PATH := /sys/class/power_supply/battery/temp
 TW_FRAMERATE := 60
 TW_SKIP_ADDITIONAL_FSTAB := true
 TW_NO_SCREEN_BLANK := true
+TW_USE_LEGACY_BATTERY_SERVICES := true
 
 # Version/Maintainer
 TW_DEVICE_VERSION := Realme-UI-v2.0-BY-ANSH-$(shell date +%Y%m%d)
